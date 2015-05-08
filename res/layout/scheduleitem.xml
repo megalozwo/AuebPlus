@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp" >
+ <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/mLine1"
+        android:contentDescription="random"
+        
+        android:src="@drawable/velaki" />
+ <TextView
+     android:id="@+id/mLine1"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:gravity="center_vertical"
+     android:layout_alignWithParentIfMissing="true"
+     android:layout_toLeftOf="@id/icon"
+     android:padding="3dp"
+     android:singleLine="true"
+     android:text="title"
+     android:textColor="#040404"
+     android:textSize="18sp"
+     android:textStyle="bold"
+     android:typeface="sans" />
+
+    
+
+   
+
+</RelativeLayout>

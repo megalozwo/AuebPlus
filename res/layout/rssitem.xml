@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp" >
+ <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/mLine1"
+        android:contentDescription="random"
+        
+        android:src="@drawable/velaki" />
+ <TextView
+     android:id="@+id/mLine1"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignWithParentIfMissing="true"
+     android:layout_toLeftOf="@id/icon"
+     android:padding="3dp"
+     android:singleLine="true"
+     android:text="title"
+     android:textColor="#040404"
+     android:textSize="16sp"
+     android:textStyle="bold"
+     android:typeface="sans" />
+
+ <LinearLayout
+     android:id="@+id/row2"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:layout_below="@+id/mLine1"
+     android:layout_toLeftOf="@+id/icon">
+
+     <TextView
+           android:id="@+id/mdate"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:padding="3dp"
+           android:singleLine="true"
+           android:text="date"
+           android:textColor="#343434"
+           android:textSize="12sp"
+           android:textStyle="bold" /> 
+     <TextView
+        android:id="@+id/mLine2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:paddingLeft="5dp"
+        android:singleLine="true"
+        android:text="Desc"
+        android:textColor="#343434"
+        android:textSize="12sp" />
+      
+      
+</LinearLayout>
+</RelativeLayout>

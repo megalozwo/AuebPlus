@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+    
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:src="@drawable/header"
+		android:layout_gravity="top"
+		android:contentDescription="@string/splash_screen"
+        />
+    
+    <ImageView 
+        android:id="@+id/announcements"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/announcements"
+		android:layout_below="@id/header"
+		android:paddingLeft="20dp"
+		android:paddingTop="10dp"
+		android:contentDescription="@string/splash_screen"
+        />
+    
+        <ImageView 
+        android:id="@+id/schedule"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/schedule"
+		android:paddingLeft="20dp"
+		android:paddingTop="10dp"
+		android:layout_toRightOf="@id/announcements"
+		android:layout_below="@id/header"
+		android:contentDescription="@string/schedule"
+        />
+        
+        <ImageView 
+        android:id="@+id/strikes"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/strikes"
+		android:layout_gravity="top"
+		android:paddingLeft="20dp"
+		android:paddingTop="10dp"
+		android:paddingRight="10dp"
+		android:layout_toRightOf="@id/schedule"
+		android:layout_below="@id/header"
+		android:contentDescription="@string/strikes"
+        />
+        
+        <ImageView 
+        android:id="@+id/eclass"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/eclass"
+		android:paddingLeft="20dp"
+		android:paddingTop="50dp"
+		android:layout_below="@id/announcements"
+		android:contentDescription="@string/eclass"
+        />
+        
+        <ImageView 
+        android:id="@+id/grades"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/grades"
+		android:paddingLeft="20dp"
+		android:paddingTop="50dp"
+		android:layout_below="@id/schedule"
+		android:layout_toRightOf="@id/eclass"
+		android:contentDescription="@string/grades"
+        />
+        
+        <ImageView 
+        android:id="@+id/secretary"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/secretary"
+		android:paddingLeft="20dp"
+		android:paddingTop="50dp"
+		android:paddingRight="10dp"
+		android:layout_below="@id/strikes"
+		android:layout_toRightOf="@id/grades"
+		android:contentDescription="@string/secretary"
+        />
+        
+       	<ImageView 
+        android:id="@+id/map"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/map"
+		android:paddingLeft="20dp"
+		android:paddingTop="50dp"
+		android:layout_below="@id/eclass"
+		android:contentDescription="@string/map"
+        />
+       	
+       	<ImageView 
+        android:id="@+id/access"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/access"
+		android:paddingLeft="20dp"
+		android:paddingTop="50dp"
+		android:layout_below="@id/grades"
+		android:layout_toRightOf="@id/map"
+		android:contentDescription="@string/access"
+        />
+       	
+       	<ImageView 
+        android:id="@+id/news"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/news"
+		android:paddingLeft="20dp"
+		android:paddingTop="50dp"
+		android:paddingRight="10dp"
+		android:layout_below="@id/secretary"
+		android:layout_toRightOf="@id/access"
+		android:contentDescription="@string/news"
+        />
+    
+    </RelativeLayout>

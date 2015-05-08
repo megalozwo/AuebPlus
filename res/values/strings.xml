@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">Aueb Plus</string>
+    <string name="splash_screen">Aueb Plus Splash Screen</string>
+    <string name="announcements">Ανακοινώσεις</string>
+    <string name="schedule">Προγράμμα</string>
+	<string name="strikes">Απεργίες</string>
+	<string name="eclass">E-Class</string>
+	<string name="grades">Βαθμοί</string>
+	<string name="secretary">Γραμματεία</string>
+    <string name="map">Χάρτης</string>
+    <string name="access">Πρόσβαση</string>
+    <string name="news">Νέα</string>
+    <string name="randomimage">random Image</string>
+    <string name="secretary">Γραμματεία Οικονομικής Επιστήμης</string>
+</resources>
